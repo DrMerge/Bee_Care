@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE >
 <html>
   <head>
     <title>Register Page</title>
@@ -6,7 +6,7 @@
   <body>
     <h1>Register</h1>
 
-    <form action="submit_registration.php" method="post">
+    <form>
       <label for="fname">First Name:</label>
       <input type="text" id="fname" name="fname" required /><br /><br />
 
@@ -24,8 +24,22 @@
 
       <label for="address">Address:</label>
       <textarea id="address" name="address" required></textarea><br /><br />
-
-      <input type="submit" value="Register" />
+      <label for="password">Enter New Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+      <label for="confirm-password">Confirm Password:</label>
+      <input
+        type="password"
+        id="confirm-password"
+        name="confirm-password"
+        required
+      /><br /><br />
+      <button type="submit" id="submitBtn">Register</button>
     </form>
+    <script type="module" src="/jscripts/register.js"></script>
   </body>
 </html>

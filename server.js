@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const cookieParser = require("cookie-parser");
@@ -6,6 +7,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3000;
 
 const app = express();
+app.use(express.json());
 app.use(express.static("public"));
 //serving the Home page as an entry point
 app.use("/home", require("./routes/home"));
