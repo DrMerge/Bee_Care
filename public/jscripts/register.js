@@ -21,7 +21,7 @@ const postDetails = (e) => {
     address: address.value,
     userPassword: password.value,
   };
-  console.log(data.userPassword);
+
   if (data.userPassword != confirmPassword.value) {
     console.log("incorrect password");
   } else {
@@ -36,11 +36,11 @@ const postDetails = (e) => {
         // .then((response) => {
         //   response.json();
         // })
-        .then((result) => {
-          console.log(result);
+        .then((response) => {
+          window.location.replace(response.url);
         })
         .catch((err) => {
-          console.error("Error in Fetch:", error);
+          console.error("Error in Fetch:", err);
         })
     );
   }

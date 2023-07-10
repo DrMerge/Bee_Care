@@ -3,11 +3,11 @@ const URL = "http://localhost:3000/auth-patient";
 
 const postDetails = (e) => {
   e.preventDefault();
-  const email = document.getElementById("email_or_username");
+  const phone_No = document.getElementById("email_or_username");
   const password = document.getElementById("password");
 
   const data = {
-    email: email.value,
+    phone_No: phone_No.value,
     password: password.value,
   };
 
