@@ -4,3 +4,7 @@
 20230707	14:35:52	ce496046-3ec8-4ba4-8c6c-206aba10694d	SyntaxError: Unexpected token " in JSON at position 0
 20230707	14:36:56	22710b9f-10ad-492c-8c10-57f0517a167c	SyntaxError: Unexpected token " in JSON at position 0
 20230707	14:42:21	1710150b-33f9-4720-804b-1f985b7f8042	TypeError: Cannot read properties of undefined (reading 'phone_No')
+20230712	03:15:08	337e6db7-31f5-4b75-8b3b-0599972d985a	Error: Not allowed by CORS
+20230712	03:15:11	50612c73-137c-40f6-87d4-9782a7bf3ee5	Error: Not allowed by CORS
+20230712	03:19:37	a110cdf2-de61-48a0-ad73-61966b08b1f6	Error: Not allowed by CORS
+20230712	03:19:37	f87d384c-7434-4475-947a-b35d1b0c92be	Error: Not allowed by CORS
