@@ -35,7 +35,7 @@ const handleRefresh = (req, res) => {
 
           const accessToken = jwt.sign(
             { phone_No: patient.properties.phone_No },
-            process.env.REFRESH_TOKEN_SECRET,
+            process.env.ACCESS_TOKEN_SECRET,
             { expiresIn: "600s" }
           );
 
